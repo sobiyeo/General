@@ -1,0 +1,9 @@
+SELECT *
+	FROM ACCOUNTS
+	WHERE name = 'Walmart'
+
+UNION 
+
+SELECT *
+	FROM ACCOUNTS
+	WHERE name = 'Disney'f
